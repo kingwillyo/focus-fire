@@ -14,14 +14,12 @@ export const styles = StyleSheet.create({
     container: {
         flex: 1,
         alignItems: 'center',
-        justifyContent: 'center',
+        justifyContent: 'flex-end',
         padding: 24,
     },
     iconContainer: {
-        flex: 1,
         alignItems: 'center',
         justifyContent: 'center',
-        marginTop: 60,
     },
     icon: {
         width: 140,
@@ -39,6 +37,49 @@ export const styles = StyleSheet.create({
         color: COLORS.inactive,
         textAlign: 'center',
         lineHeight: 25,
-        marginBottom: 40,
+        marginBottom: 50,
     },
+    buttonContainer: {
+        width: '100%',
+        alignItems: 'center',
+        marginBottom: 18,
+    },
+    googleButton: {
+        backgroundColor: COLORS.primary,
+        padding: 15,
+        width: '100%',
+        borderRadius: 8,
+        flexDirection: 'row',
+        alignItems: 'center',
+        justifyContent: 'center',
+    },
+    googleIcon: {
+        marginRight: 15,
+        fontWeight: 'bold',
+    },
+    signInText: {
+        color: COLORS.white,
+        fontSize: 16,
+        fontWeight: 'bold',
+    },
+    signInLaterButton: {
+        padding: 15,
+        width: '100%',
+        alignItems: 'center',
+    },
+    signInLaterText: {
+        color: COLORS.inactive,
+        fontSize: 16,
+        fontWeight: 'bold',
+    },
+    footerText: {
+        color: COLORS.inactive,
+        fontSize: 12,
+        alignItems: 'center',
+        position: 'absolute', //fixes the text to the bottom of screen
+        textAlign: 'center',
+    },
+    linkText: {
+        textDecorationLine: 'underline',
+    }
 })
