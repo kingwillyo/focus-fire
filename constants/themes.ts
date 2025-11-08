@@ -4,5 +4,6 @@ export const COLORS = {
     Background: "#17120F",
     tab: "#291C1C",
     white: "#FFFFFF",
-    inactive: "#BDA199"
+    inactive: "#BDA199",
+    darkOverlay: 'rgba(20, 10, 4, 0.5)'
 } as const;
