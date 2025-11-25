@@ -1,51 +1,124 @@
-# Welcome to your Expo app 👋
+🔥 FocusFire
+A Productivity App That Ignites Your Focus
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+FocusFire is a minimalist productivity app designed to help students and creators stay disciplined, avoid distractions, and build long-term focus streaks.
+It combines a powerful Pomodoro timer, an app blocker, and a unique barcode unlock system that prevents you from exiting sessions early.
 
-## Get started
+✨ Features
+🔥 Focus Streak System
 
-1. Install dependencies
+Stay motivated and build momentum with daily focus streaks. Every completed session fuels your “fire”.
 
-   ```bash
-   npm install
-   ```
+⏱️ Pomodoro Timer (Unexitable)
 
-2. Start the app
+A clean, distraction-proof Pomodoro timer UI that cannot be exited mid-session unless the user scans a generated barcode.
 
-   ```bash
-   npx expo start
-   ```
+📵 App Blocking
 
-In the output, you'll find options to open the app in a
+Choose which apps to block during focus sessions. Prevents social media, games, or any app from interrupting your study time.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+📸 Barcode Unlock Mechanism
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Exiting a session requires scanning a unique barcode — making procrastination harder and focus easier.
 
-## Get a fresh project
+🔐 Google Authentication
 
-When you're ready, run:
+Simple onboarding with a Google Sign-In button.
 
-```bash
-npm run reset-project
-```
+🎨 Beautiful UI
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Inspired by modern productivity apps.
+Includes:
 
-## Learn more
+Dark gradient background
 
-To learn more about developing your project with Expo, look at the following resources:
+Minimalist flame logo
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Custom Google button
 
-## Join the community
+🖼️ App Preview
 
-Join our community of developers creating universal apps.
+Add screenshots of:
+• Onboarding screen
+• Pomodoro timer
+• Blocked apps selection
+• Barcode unlock screen
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
-# focus-fire
+/assets
+  ├── background.png
+  ├── flame_logo.png
+  ├── google_icon.png
+  ├── google_button.png
+
+🚀 Tech Stack
+
+Expo + React Native
+
+Expo Router
+
+TypeScript / JavaScript
+
+Supabase (Auth, database, storage)
+
+Expo Local Auth + Camera for barcode scanning
+
+AsyncStorage for session logic
+
+React Native Reanimated (UI interactions)
+
+📦 Installation
+git clone https://github.com/YourUsername/FocusFire.git
+cd FocusFire
+npm install
+npx expo start
+
+🛠️ Project Structure
+/app
+  ├── (auth)/
+  ├── home/
+  ├── focus/
+  ├── blocker/
+  ├── barcode/
+  ├── components/
+  ├── hooks/
+  ├── services/
+  └── utils/
+
+ /assets
+    ├── background.png
+    ├── flame_logo.png
+    ├── google_icon.png
+
+🎯 Roadmap
+
+ Add weekly focus analytics
+
+ Add widgets for quick start
+
+ AI-powered distraction prediction
+
+ Lock Mode (if user leaves app)
+
+ Cloud syncing for sessions
+
+🧪 Development Status
+
+FocusFire is currently in active development.
+I am working on:
+
+Integrating Google Auth
+
+Building the onboarding experience
+
+Developing the Pomodoro timer and lock mode
+
+Creating the app blocker system
+
+🤝 Contributing
+
+Pull requests are welcome!
+If you have feature ideas, open an issue.
+
+📄 License
+
+MIT License © 2025 Your Name
