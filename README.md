@@ -1,124 +1,54 @@
-🔥 FocusFire
-A Productivity App That Ignites Your Focus
+# 🔥 FocusFire – Pomodoro Timer + App Blocker
 
-FocusFire is a minimalist productivity app designed to help students and creators stay disciplined, avoid distractions, and build long-term focus streaks.
-It combines a powerful Pomodoro timer, an app blocker, and a unique barcode unlock system that prevents you from exiting sessions early.
+FocusFire is a minimalist productivity app designed to help students, creators, and professionals stay focused during deep-work sessions. It combines a **Pomodoro timer**, a **distraction-free app blocker**, and a unique **QR-code exit lock**, ensuring that study sessions stay uninterrupted.
 
-✨ Features
-🔥 Focus Streak System
+---
 
-Stay motivated and build momentum with daily focus streaks. Every completed session fuels your “fire”.
+## 🚀 Features
 
-⏱️ Pomodoro Timer (Unexitable)
+### ⏱️ Pomodoro Timer  
+- Customizable work and break durations  
+- Clean, modern UI  
+- Session history tracking *(coming soon)*  
 
-A clean, distraction-proof Pomodoro timer UI that cannot be exited mid-session unless the user scans a generated barcode.
+### 🔒 App Blocker  
+- Select apps to block during focus sessions  
+- Prevents opening blocked apps until the timer ends  
+- Enforcement mode: blocked apps cannot be bypassed  
 
-📵 App Blocking
+### 🧩 QR-Locked Exit (Unique Feature)  
+- The Pomodoro session **cannot be stopped** unless the user scans a pre-set QR code  
+- Forces real commitment and eliminates impulse quitting  
 
-Choose which apps to block during focus sessions. Prevents social media, games, or any app from interrupting your study time.
+### 🎨 Minimalist Gradient UI  
+- Custom flame-themed aesthetic  
+- Smooth gradient backgrounds  
+- Dark and light variations  
 
-📸 Barcode Unlock Mechanism
+---
 
-Exiting a session requires scanning a unique barcode — making procrastination harder and focus easier.
+## 📸 Preview
 
-🔐 Google Authentication
+<img width="706" height="1600" alt="screen" src="https://github.com/user-attachments/assets/30218728-4e82-458a-8c54-5ee0a263a55c" />
+<img width="706" height="1600" alt="screen" src="https://github.com/user-attachments/assets/0b284687-36ca-47a0-9df2-a30800991c9b" />
 
-Simple onboarding with a Google Sign-In button.
+---
 
-🎨 Beautiful UI
+## 🛠️ Tech Stack
 
-Inspired by modern productivity apps.
-Includes:
+- **React Native (Expo)**
+- **TypeScript / JavaScript**
+- **Secure Storage**
+- **Local Notifications**
+- **QR Code Scanner**
+- *(Optional)* Supabase for syncing user data across devices
 
-Dark gradient background
+---
 
-Minimalist flame logo
+## 📦 Installation
 
-Custom Google button
-
-🖼️ App Preview
-
-Add screenshots of:
-• Onboarding screen
-• Pomodoro timer
-• Blocked apps selection
-• Barcode unlock screen
-
-/assets
-  ├── background.png
-  ├── flame_logo.png
-  ├── google_icon.png
-  ├── google_button.png
-
-🚀 Tech Stack
-
-Expo + React Native
-
-Expo Router
-
-TypeScript / JavaScript
-
-Supabase (Auth, database, storage)
-
-Expo Local Auth + Camera for barcode scanning
-
-AsyncStorage for session logic
-
-React Native Reanimated (UI interactions)
-
-📦 Installation
-git clone https://github.com/YourUsername/FocusFire.git
-cd FocusFire
+```bash
+git clone https://github.com/YOUR-USERNAME/focusfire.git
+cd focusfire
 npm install
 npx expo start
-
-🛠️ Project Structure
-/app
-  ├── (auth)/
-  ├── home/
-  ├── focus/
-  ├── blocker/
-  ├── barcode/
-  ├── components/
-  ├── hooks/
-  ├── services/
-  └── utils/
-
- /assets
-    ├── background.png
-    ├── flame_logo.png
-    ├── google_icon.png
-
-🎯 Roadmap
-
- Add weekly focus analytics
-
- Add widgets for quick start
-
- AI-powered distraction prediction
-
- Lock Mode (if user leaves app)
-
- Cloud syncing for sessions
-
-🧪 Development Status
-
-FocusFire is currently in active development.
-I am working on:
-
-Integrating Google Auth
-
-Building the onboarding experience
-
-Developing the Pomodoro timer and lock mode
-
-Creating the app blocker system
-
-🤝 Contributing
-
-Pull requests are welcome!
-If you have feature ideas, open an issue.
-
-📄 License
-
-MIT License © 2025 Your Name
